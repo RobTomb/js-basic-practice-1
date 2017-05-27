@@ -1,7 +1,7 @@
 const main = require('../main/main');
 
 describe('main()', () => {
-
+    "use strict";
     it('should calculate the remaindar', () => {
         expect(main.caclRemaindar(9, 3)).toBe(0);
         expect(main.caclRemaindar(11, 4)).toBe(3);
